@@ -1,0 +1,39 @@
+/* Quinn Douglas Scrivner */
+body,
+html {
+  height: 99%;
+  width: 99%;
+  background-image: url(images/galaxy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: teal;
+}
+html{
+  border: 5px solid black;
+}
+button{
+  background-color: aqua;
+}
+#spaceContainer, #astroContainer {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+}
+#spaceContainer > div, #astroContainer > div {
+  border: 3px solid white;
+  border-spacing: 5px;
+}
+img {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+}
+
+#space, #astronaut {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 197, 154);
+}
